@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Ejecutar HolaMundoFX",
+      "request": "launch",
+      "mainClass": "HolaMundoFX",
+      "vmArgs": "--module-path \"C:/Users/rleo5/Documents/Programacion3/Tareas/Tarea5/javafx-sdk-27/lib\" --add-modules javafx.controls"
+    }
+  ]
+}
