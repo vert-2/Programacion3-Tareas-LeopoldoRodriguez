@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutar App",
+            "request": "launch",
+            "mainClass": "App",
+            "classPaths": [
+                "${workspaceFolder}/out"
+            ],
+            "vmArgs": [
+                "--module-path",
+                "${workspaceFolder}/javafx/javafx-sdk/javafx-sdk-25.0.4/lib",
+                "--add-modules",
+                "javafx.controls"
+            ]
+        }
+    ]
+}
